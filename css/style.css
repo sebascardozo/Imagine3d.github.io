@@ -42,7 +42,7 @@ h3 {
   margin-top: 1.2rem;
   color: #fbfbfb;
   text-align: center;
-  animation: from-right 1s 1.5s ease;
+  animation: from-left 1s 1.5s ease;
   animation-fill-mode: backwards;
 }
 #info {
