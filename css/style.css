@@ -88,15 +88,15 @@ h3 {
   padding-bottom: 2rem;
 }
 .person-one {
-  animation: from-left 2s 1.5s ease;
+  animation: from-left 2s 1s ease;
   animation-fill-mode: backwards;
 }
 .person-two {
-  animation: from-right 4s 1.5s ease;
+  animation: from-right 4s 1s ease;
   animation-fill-mode: backwards;
 }
 .person-three {
-  animation: from-under 2s 1.5s ease;
+  animation: from-under 2s 1s ease;
   animation-fill-mode: backwards;
 }
 
