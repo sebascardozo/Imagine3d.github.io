@@ -3,10 +3,6 @@
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
 }
 #mainNav .navbar-brand {
   color: rgb(0, 9, 92);
@@ -22,10 +18,13 @@
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
-  background-color: #685e5a;
+  border: solid 1px black;
+  background-color: #161616;
+  box-shadow: 2px 2px 5px #aaa0a0;
+  padding: 1rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #f9fd00;
+  color: #bcff02;
 }
 /*MAIN INICIO*/
 
@@ -39,10 +38,9 @@ h1 {
 }
 
 h3 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: 1.2rem;
   color: #fbfbfb;
-  text-shadow: 2px 2px 2px #d8ca00;
   text-align: center;
   animation: from-right 1s 1.5s ease;
   animation-fill-mode: backwards;
@@ -90,11 +88,11 @@ h3 {
   padding-bottom: 2rem;
 }
 .person-one {
-  animation: from-left 3s 1.5s ease;
+  animation: from-left 2s 1.5s ease;
   animation-fill-mode: backwards;
 }
 .person-two {
-  animation: from-right 5s 1.5s ease;
+  animation: from-right 4s 1.5s ease;
   animation-fill-mode: backwards;
 }
 .person-three {
@@ -111,10 +109,13 @@ h3 {
 .footer {
   padding-top: 0;
   padding-bottom: 3rem;
-  background-color: #2c3e50;
+  background-color: #000000;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #1c1c1d;
+}
+.btn {
+  box-shadow: 2px 2px 5px #aaa0a0;
 }
