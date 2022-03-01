@@ -5,12 +5,12 @@
   padding-bottom: 1rem;
 }
 #mainNav .navbar-brand {
-  color: rgb(0, 9, 92);
+  color: rgb(235, 235, 235);
   text-shadow: 2px 2px 4px #aaa0a0;
   margin-top: 1rem;
   border: 1px solid black;
   padding: 0.5rem;
-  background-color: #d8ca00;
+  background-color: #030303;
   box-shadow: 2px 2px 5px #aaa0a0;
 }
 #mainNav .navbar-nav {
