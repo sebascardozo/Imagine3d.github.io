@@ -18,6 +18,11 @@
       rel="stylesheet"
       type="text/css"
     />
+ <!-- Wow animations-->
+   <link
+   rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Imagine3D</title>
 </head>
   <body>
@@ -77,9 +82,9 @@
         <!-- TITULOS-->
     <section class="container-fluid text-center">
       <div class="container pt-6">
-        <h1 class="display-3 text-black fw-bold">IMAGINE 3D</h1>
+        <h1 class="animated__animated animate__heartBeat display-3 text-black fw-bold">IMAGINE 3D</h1>
         <h2 class="display-4 text-black">Impresiones en 2D y 3D</h2>
-        <h3 class="display-5 text-primary">Imprimimos tú imaginación</h3>
+        <h3 class=" animated__animated animate__zoomInUp display-5 text-primary">Imprimimos tú imaginación</h3>
       </div>
     </section>
       <!-- CARRUSEL IMAGENES-->
@@ -114,26 +119,40 @@
             </div>
          </section>
            <!-- CAJA INFORMATIVA-->
-         <section id="info" class="p-2 ">
-          <div class="container my-5 ">
-            <div class="row align-items-center justify-content-between">
-               <div class="col-md-12 p-5 ">
-                <h4 class="text-center bg-info fw-bold ">La impresión 3D es el futuro </h4>
-                <p class="lead">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                  doloribus distinctio sit. Assumenda, perferendis doloremque.
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                  obcaecati omnis quam laborum fuga vero repudiandae sit ipsa nisi
-                  asperiores. Dolore blanditiis ipsum obcaecati alias sequi quam
-                  dolor molestias assumenda!
-                </p>
+           <section class=" d-flex justify-content-center wow animate__animated animate__fadeInTopLeft animate__delay-1s">
+            <div class="row align-items-center justify-content-center"  >
+              <div class="col-md-12"  >
+               <img src="/img/futuro.jpg" alt="icono hacia el futuro">
               </div>
-            </div>
-          </div>
-        </section>
+            </div >
+          </section>
+        <section id="inf" class=" wow animate__animated animate__backInRight">
+         <div class="container my-5 ">
+           <div class="row align-items-center justify-content-between">
+              <div class="col-md-12 p-1">
+               <h4 class="text-center text-primary display-5">La impresión 3D es el futuro </h4>
+               <p class="lead ">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                 doloribus distinctio sit. Assumenda, perferendis doloremque.
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                 obcaecati omnis quam laborum fuga vero repudiandae sit ipsa nisi
+                 asperiores. Dolore blanditiis ipsum obcaecati alias sequi quam
+                 dolor molestias assumenda!
+               </p>
+             </div>
+           </div>
+         </div>
+       </section>
         <!--ACORDION PREGUNTAS-->
+        <section class="d-flex  justify-content-center wow animate__animated animate__fadeInTopLeft animate__delay-0.5s">
+          <div class="row align-items-center justify-content-center"  >
+            <div class="col-md-12"  >
+             <img src="/img/preguntas.png" alt="icono hacia el futuro">
+            </div>
+          </div >
+        </section>
         <section id="preguntas" class="p-5">
-          <div class="container">
+          <div class="container wow animate__animated animate__bounceInLeft">
             <h2 class="text-center mb-4">Preguntas frecuentes</h2>
             <div class="accordion accordion-flush" id="preguntas">
               <!--PREGUNTA 1-->
@@ -231,6 +250,11 @@
       <small>Copyright &copy; Imagine3D-Sebastian Cardozo</small>
     </div>
   </div>
+  <!-- Wow -->
+<script src="/css/wow.min.js"></script>
+<script>
+   new WOW().init();
+</script>
  <!-- Option 1: Bootstrap Bundle with Popper -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
