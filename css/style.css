@@ -13,6 +13,10 @@
   background-color: #030303;
   box-shadow: 2px 2px 5px #aaa0a0;
 }
+#mainNav .navbar-brand:hover {
+  color: #d9ff02;
+}
+
 #mainNav .navbar-nav {
   margin-top: 1rem;
 }
@@ -26,12 +30,8 @@
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #bcff02;
 }
-/*body*/
-body {
-  background-color: #dd6262;
-}
 
-/*MAIN INICIO*/
+/*INICIO*/
 
 h1 {
   color: #fdfdfd;
@@ -77,7 +77,27 @@ h3 {
   }
 }
 
-/*SERVICIOS*/
+@keyframes iluminar {
+  0% {
+    color: #ffffff;
+    text-shadow: none;
+  }
+  90% {
+    color: #b83923;
+    text-shadow: none;
+  }
+  100% {
+    color: #ff0000;
+    text-shadow: 0 0 7px #ff0000, 0 0 50px #ff6c00;
+  }
+}
+/*PRODUCTOS*/
+.animation-text {
+  display: flex;
+  font-size: 3rem;
+  justify-content: center;
+  animation: iluminar 1s linear infinite;
+}
 
 /*NOSOTROS*/
 .nosotros {
@@ -115,6 +135,8 @@ h3 {
 .btn {
   box-shadow: 2px 2px 5px #aaa0a0;
 }
+
+/*Botton Whatsapp*/
 .container-button {
   background-color: #395c36;
   border: 1px solid #fff;
@@ -137,7 +159,6 @@ h3 {
   width: 25px;
   transition: ease 1s;
 }
-
 @keyframes efecto {
   0% {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
