@@ -26,6 +26,11 @@
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #bcff02;
 }
+/*body*/
+body {
+  background-color: #dd6262;
+}
+
 /*MAIN INICIO*/
 
 h1 {
