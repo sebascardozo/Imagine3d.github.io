@@ -39,16 +39,13 @@ h1 {
   font-size: 4.5rem;
   font-weight: 400;
   text-align: center;
-  animation: from-right 1s ease;
 }
 
 h3 {
-  font-size: 4rem;
-  margin-top: 1.2rem;
+  font-size: 3.5rem;
+  margin-top: 1rem;
   color: #fbfbfb;
   text-align: center;
-  animation: from-left 1s 0.5s ease;
-  animation-fill-mode: backwards;
 }
 #info {
   animation: from-left 1s 1.5s ease;
