@@ -52,7 +52,7 @@ h3 {
 }
 /*ANIMACIONES*/
 
-@keyframes from-left {
+@keyframes from-right {
   0% {
     opacity: 0;
     transform: translateX(80%);
@@ -74,6 +74,14 @@ h3 {
   }
 }
 
+/*PRODUCTOS*/
+.animation__text {
+  display: flex;
+  font-size: 3rem;
+  justify-content: center;
+  animation: iluminar 1s linear infinite;
+}
+/*APLICADO A CARDS OFERTAS*/
 @keyframes iluminar {
   0% {
     color: #ffffff;
@@ -88,32 +96,19 @@ h3 {
     text-shadow: 0 0 7px #ff0000, 0 0 50px #ff6c00;
   }
 }
-/*PRODUCTOS*/
-.animation-text {
-  display: flex;
-  font-size: 3rem;
-  justify-content: center;
-  animation: iluminar 1s linear infinite;
-}
 
-/*NOSOTROS*/
-.nosotros {
-  padding-bottom: 2rem;
-}
-.person-one {
-  animation: from-left 2s 1s ease;
+/*NOSOTROS ( se usa BEM) */
+
+.person__one {
+  animation: from-right 2s ease;
   animation-fill-mode: backwards;
 }
-.person-two {
-  animation: from-right 4s 1s ease;
-  animation-fill-mode: backwards;
-}
-.person-three {
-  animation: from-under 2s 1s ease;
+.person__two {
+  animation: from-under 3s 1s ease;
   animation-fill-mode: backwards;
 }
 
-/*FORM*/
+/*CONTACTO-FORM*/
 .form {
   margin-top: 2rem;
   margin-bottom: 5rem;
@@ -133,8 +128,8 @@ h3 {
   box-shadow: 2px 2px 5px #aaa0a0;
 }
 
-/*Botton Whatsapp*/
-.container-button {
+/*Botton Whatsapp Se usa BEM*/
+.container__button {
   background-color: #395c36;
   border: 1px solid #fff;
   position: fixed;
@@ -147,7 +142,7 @@ h3 {
   animation: efecto 1.2s infinite;
 }
 
-.container-button:hover {
+.container__button:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
