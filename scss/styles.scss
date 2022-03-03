@@ -1,35 +1,7 @@
-/*NAV*/
-#mainNav {
-  align-items: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-#mainNav .navbar-brand {
-  color: rgb(235, 235, 235);
-  text-shadow: 2px 2px 4px #aaa0a0;
-  margin-top: 1rem;
-  border: 1px solid black;
-  padding: 0.5rem;
-  background-color: #030303;
-  box-shadow: 2px 2px 5px #aaa0a0;
-}
-#mainNav .navbar-brand:hover {
-  color: #d9ff02;
-}
-
-#mainNav .navbar-nav {
-  margin-top: 1rem;
-}
-#mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
-  border: solid 1px black;
-  background-color: #161616;
-  box-shadow: 2px 2px 5px #aaa0a0;
-  padding: 1rem;
-}
-#mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #bcff02;
-}
+@import "fonts";
+@import "nav";
+@import "buttonWapp";
+@import "variables";
 
 /*INICIO*/
 
@@ -47,9 +19,7 @@ h3 {
   color: #fbfbfb;
   text-align: center;
 }
-#info {
-  animation: from-left 1s 1.5s ease;
-}
+
 /*ANIMACIONES*/
 
 @keyframes from-right {
@@ -117,45 +87,13 @@ h3 {
 .footer {
   padding-top: 1rem;
   padding-bottom: 1.5rem;
-  background-color: #000000;
+  background-color: $backgroundfooter;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1c1c1d;
+  background-color: $colorcopyright;
 }
 .btn {
   box-shadow: 2px 2px 5px #aaa0a0;
-}
-
-/*Botton Whatsapp Se usa BEM*/
-.container__button {
-  background-color: #395c36;
-  border: 1px solid #fff;
-  position: fixed;
-  z-index: 999;
-  border-radius: 50%;
-  bottom: 40px;
-  right: 10px;
-  padding: 15px;
-  transition: ease 0.3s;
-  animation: efecto 1.2s infinite;
-}
-
-.container__button:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-}
-
-.button {
-  width: 25px;
-  transition: ease 1s;
-}
-@keyframes efecto {
-  0% {
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
-  }
-  100% {
-    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
-  }
 }
