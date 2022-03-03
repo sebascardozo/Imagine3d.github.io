@@ -1,0 +1,246 @@
+/*NAV*/
+#mainNav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#mainNav .navbar-brand {
+  color: #ebebeb;
+  text-shadow: 2px 2px 4px #aaa0a0;
+  margin-top: 1rem;
+  border: 1px solid black;
+  padding: 0.5rem;
+  background-color: #030303;
+  -webkit-box-shadow: 2px 2px 5px #aaa0a0;
+          box-shadow: 2px 2px 5px #aaa0a0;
+}
+
+#mainNav .navbar-brand:hover {
+  color: #d9ff02;
+}
+
+#mainNav .navbar-nav {
+  margin-top: 1rem;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: #fff;
+  border: solid 1px black;
+  background-color: #161616;
+  -webkit-box-shadow: 2px 2px 5px #aaa0a0;
+          box-shadow: 2px 2px 5px #aaa0a0;
+  padding: 1rem;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #bcff02;
+}
+
+/*INICIO*/
+h1 {
+  color: #fdfdfd;
+  text-shadow: 5px 5px 5px #5a5555;
+  font-size: 4.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+h3 {
+  font-size: 3.5rem;
+  margin-top: 1rem;
+  color: #fbfbfb;
+  text-align: center;
+}
+
+#info {
+  -webkit-animation: from-left 1s 1.5s ease;
+          animation: from-left 1s 1.5s ease;
+}
+
+/*ANIMACIONES*/
+@-webkit-keyframes from-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(80%);
+            transform: translateX(80%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+@keyframes from-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(80%);
+            transform: translateX(80%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes from-under {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(80%);
+            transform: translateY(80%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@keyframes from-under {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(80%);
+            transform: translateY(80%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+/*PRODUCTOS*/
+.animation__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 3rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation: iluminar 1s linear infinite;
+          animation: iluminar 1s linear infinite;
+}
+
+/*APLICADO A CARDS OFERTAS*/
+@-webkit-keyframes iluminar {
+  0% {
+    color: #ffffff;
+    text-shadow: none;
+  }
+  90% {
+    color: #b83923;
+    text-shadow: none;
+  }
+  100% {
+    color: #ff0000;
+    text-shadow: 0 0 7px #ff0000, 0 0 50px #ff6c00;
+  }
+}
+@keyframes iluminar {
+  0% {
+    color: #ffffff;
+    text-shadow: none;
+  }
+  90% {
+    color: #b83923;
+    text-shadow: none;
+  }
+  100% {
+    color: #ff0000;
+    text-shadow: 0 0 7px #ff0000, 0 0 50px #ff6c00;
+  }
+}
+
+/*NOSOTROS ( se usa BEM) */
+.person__one {
+  -webkit-animation: from-right 2s ease;
+          animation: from-right 2s ease;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.person__two {
+  -webkit-animation: from-under 3s 1s ease;
+          animation: from-under 3s 1s ease;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+/*CONTACTO-FORM*/
+.form {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+/*FOOTER*/
+.footer {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  background-color: #000000;
+  color: #fff;
+}
+
+.copyright {
+  background-color: #1c1c1d;
+}
+
+.btn {
+  -webkit-box-shadow: 2px 2px 5px #aaa0a0;
+          box-shadow: 2px 2px 5px #aaa0a0;
+}
+
+/*Botton Whatsapp Se usa BEM*/
+.container__button {
+  background-color: #395c36;
+  border: 1px solid #fff;
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 40px;
+  right: 10px;
+  padding: 15px;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+  -webkit-animation: efecto 1.2s infinite;
+          animation: efecto 1.2s infinite;
+}
+
+.container__button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.button {
+  width: 25px;
+  -webkit-transition: ease 1s;
+  transition: ease 1s;
+}
+
+@-webkit-keyframes efecto {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes efecto {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
+}
+/*# sourceMappingURL=styles.css.map */
