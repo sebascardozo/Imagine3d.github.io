@@ -22,8 +22,8 @@
           box-shadow: 2px 2px 5px #aaa0a0;
 }
 
-#mainNav :hover {
-  color: #d9ff02;
+#mainNav .navbar-brand:hover {
+  color: #bcff02;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
@@ -39,7 +39,7 @@
   color: #bcff02;
 }
 
-/*Botton Whatsapp Se usa BEM*/
+/*Botton Whatsapp */
 .container__button {
   background-color: #395c36;
   border: 1px solid #fff;
@@ -201,7 +201,7 @@ h3 {
   }
 }
 
-/*NOSOTROS ( se usa BEM) */
+/*NOSOTROS */
 .person__one {
   -webkit-animation: from-right 2s ease;
           animation: from-right 2s ease;

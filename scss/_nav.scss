@@ -13,19 +13,19 @@
     padding: 0.5rem;
     background-color: #030303;
     box-shadow: 2px 2px 5px #aaa0a0;
+    &:hover {
+      color: #bcff02;
+    }
   }
-  :hover {
-    color: #d9ff02;
-  }
-}
 
-#mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
-  border: solid 1px black;
-  background-color: #161616;
-  box-shadow: 2px 2px 5px #aaa0a0;
-  padding: 1rem;
-}
-#mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #bcff02;
+  .navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+    border: solid 1px black;
+    background-color: #161616;
+    box-shadow: 2px 2px 5px #aaa0a0;
+    padding: 1rem;
+    &:hover {
+      color: #bcff02;
+    }
+  }
 }
