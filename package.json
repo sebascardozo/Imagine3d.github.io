@@ -1,0 +1,23 @@
+{
+  "name": "sebastian-cardozo-print-3dbootstrap-desafios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebascardozo/Imagine3d.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebascardozo/Imagine3d.github.io/issues"
+  },
+  "homepage": "https://github.com/sebascardozo/Imagine3d.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
