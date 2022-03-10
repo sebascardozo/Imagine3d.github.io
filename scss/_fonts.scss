@@ -1,0 +1,17 @@
+@mixin fontstyle {
+  color: #1a17e4;
+  text-align: center;
+  text-shadow: 5px 5px 5px #5a5555;
+}
+h1 {
+  @include fontstyle();
+}
+h2 {
+  @include fontstyle();
+}
+
+h3 {
+  margin-top: 1.2rem;
+  animation: from-left 1s 1.5s ease;
+  animation-fill-mode: backwards;
+}
