@@ -21,3 +21,13 @@
     transform: translateY(0%);
   }
 }
+
+/*NOSOTROS*/
+.person__one {
+  animation: from-right 2s ease;
+  animation-fill-mode: backwards;
+}
+.person__two {
+  animation: from-under 3s 1s ease;
+  animation-fill-mode: backwards;
+}

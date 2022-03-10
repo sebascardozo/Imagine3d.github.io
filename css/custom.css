@@ -81,6 +81,58 @@
     transform: translateY(0%);
   }
 }
+/*NOSOTROS*/
+.person__one {
+  animation: from-right 2s ease;
+  animation-fill-mode: backwards;
+}
+
+.person__two {
+  animation: from-under 3s 1s ease;
+  animation-fill-mode: backwards;
+}
+
+/*FOOTER*/
+.footer {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  background-color: #141414;
+  color: #fff;
+}
+
+.copyright {
+  background-color: #575454;
+}
+
+.btn {
+  box-shadow: 2px 2px 5px #aaa0a0;
+}
+
+/*INICIO*/
+h1, .h1 {
+  color: #fdfdfd;
+  text-shadow: 5px 5px 5px #5a5555;
+  font-size: 4.5rem;
+  font-weight: 400;
+  text-align: center;
+  animation: from-right 1s ease;
+}
+
+h3, .h3 {
+  font-size: 4rem;
+  margin-top: 1.2rem;
+  color: #fbfbfb;
+  text-align: center;
+  animation: from-left 1s 1.5s ease;
+  animation-fill-mode: backwards;
+}
+
+/*FORM*/
+.form {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11199,57 +11251,6 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}
-/*MAIN INICIO*/
-h1, .h1 {
-  color: #fdfdfd;
-  text-shadow: 5px 5px 5px #5a5555;
-  font-size: 4.5rem;
-  font-weight: 400;
-  text-align: center;
-  animation: from-right 1s ease;
-}
-
-h3, .h3 {
-  font-size: 4rem;
-  margin-top: 1.2rem;
-  color: #fbfbfb;
-  text-align: center;
-  animation: from-left 1s 1.5s ease;
-  animation-fill-mode: backwards;
-}
-
-/*NOSOTROS*/
-.person__one {
-  animation: from-right 2s ease;
-  animation-fill-mode: backwards;
-}
-
-.person__two {
-  animation: from-under 3s 1s ease;
-  animation-fill-mode: backwards;
-}
-
-/*FORM*/
-.form {
-  margin-top: 2rem;
-  margin-bottom: 5rem;
-}
-
-/*FOOTER*/
-.footer {
-  padding-top: 1rem;
-  padding-bottom: 1.5rem;
-  background-color: #141414;
-  color: #fff;
-}
-
-.copyright {
-  background-color: #575454;
-}
-
-.btn {
-  box-shadow: 2px 2px 5px #aaa0a0;
 }
 
 /*# sourceMappingURL=custom.css.map */
