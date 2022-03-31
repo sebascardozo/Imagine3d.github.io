@@ -1,7 +1,7 @@
 # Imagine3d.github.io
 Primer pagina de desarrollo web
-Descripcion de mi primer proyecto:
-Es una pagina referida al diseño e impresión 3D, que incluye una descripcion y referencias a el diñeño y desarrollo de elementos.
+
+Es una pagina referida al diseño e impresión 3D, que incluye una descripcion y referencias a el diseño y desarrollo de elementos.
 Tambien inlcuye en sus paginas los siguientes contenidos:
 NOSOTROS: Presentación de los integrantes de la empresa.
 PRODUCTOS: Se ofrecen productos e incluyen ofertas.
